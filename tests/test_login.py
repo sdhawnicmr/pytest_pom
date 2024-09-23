@@ -22,7 +22,7 @@ class TestLogin:
         login_page.enter_password_in_box("12345")
         login_page.login_button_click()
         #AccountPage.py
-        account_page = AccountPage()
+        account_page = AccountPage(self.driver)
         assert account_page.dis_msg_account_infor()
 
     def test_login_with_invalid_email_valid_password(self):
