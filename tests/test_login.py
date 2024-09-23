@@ -2,10 +2,9 @@ import time
 from datetime import datetime
 import pytest
 from selenium.webdriver.common.by import By
-
-from pages import AccountPage
+from pages.AccountPage import AccountPage
 from pages.HomePage import HomePage
-from pages import LoginPage
+from pages.LoginPage import LoginPage
 
 
 @pytest.mark.usefixtures("setup_and_teardown")
