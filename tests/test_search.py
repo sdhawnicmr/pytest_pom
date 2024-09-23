@@ -2,7 +2,7 @@ import time
 import pytest
 from selenium.webdriver.common.by import By
 from pages.HomePage import HomePage
-from pages.Searchpage import SearchPage
+from pages.SearchPage import SearchPage
 
 
 @pytest.mark.usefixtures("setup_and_teardown")
