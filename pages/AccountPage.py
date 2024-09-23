@@ -9,6 +9,6 @@ class AccountPage:
     edit_your_account_information_option_link_text = "Edit your account information"
 
     def dis_msg_account_infor(self):
-        self.driver.find_element(By.LINK_TEXT, self.edit_your_account_information_option_link_text).is_displayed()
+        return self.driver.find_element(By.LINK_TEXT, self.edit_your_account_information_option_link_text).is_displayed()
 
 
